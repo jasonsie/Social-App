@@ -1,0 +1,11 @@
+.homeContainer {
+    width: 100%;
+    display: flex;
+    padding-top: 65px;
+}
+
+@media screen and (max-width: 390px) {
+    .SideBar, .rightBar {
+        visibility: hidden;
+    }
+}

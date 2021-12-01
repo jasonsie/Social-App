@@ -1,0 +1,54 @@
+.commentInputContainer {
+    width: 95%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 10px; */
+}
+
+.imgContainer{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.sayContainer{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.commentProtrait{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commentInput{
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.submitBtn{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+    .commentInputContainer{
+        display: none;
+    }
+}

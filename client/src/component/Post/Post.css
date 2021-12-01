@@ -1,0 +1,146 @@
+.editContainer {
+    align-self: flex-end;
+}
+
+.penIcon:hover {
+    transform: scale(110%);
+    transition: ease-in-out;
+}
+
+.postContainer {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    background: #ffffff;
+    box-shadow: 6px 6px 7px #f0f0f0, -6px -6px 7px #ffffff;
+    padding: 20px 0;
+    margin: 5%;
+}
+
+.protrait {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.postTitle {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.postMin {
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.penIcon {
+    align-self: flex-end;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.loveIcon {
+    height: 30px;
+}
+
+.postContent {
+    width: 100%;
+}
+
+.postContent > div {
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
+.postImgContainer {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.likeIconContainer {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.likeIcon {
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.postLikeCounter{
+    font-size: 1.2rem;
+}
+
+.commentContainer {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconContainer {
+    width: inherit;
+    height: 50px;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.iconContainer:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 2%;
+}
+
+.postHr {
+    width: 92%;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 390px) {
+    .postContainer {
+        margin: 0;
+    }
+
+    .protrait {
+        width: 60px;
+        height: 60px;
+    }
+
+    .postMin{
+        font-size: 12px;
+    }
+
+    .postDesc{
+        font-size: 18px;
+    }
+
+    .postImgContainer {
+        max-height: 300px;
+    }
+
+    .iconContainer{
+        height: 25px;
+        font-size: 16px;
+    }    
+
+}

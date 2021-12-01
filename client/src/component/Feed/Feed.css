@@ -1,0 +1,11 @@
+.feed {
+    flex: 7;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 390px) {
+    .feed{
+        width: 100vw;
+    }
+}
+

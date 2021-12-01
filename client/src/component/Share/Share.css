@@ -1,0 +1,131 @@
+.followContainer {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: khaki;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.topContainer {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 20px;
+}
+
+.shareProtrait {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.feedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    background: #ffffff;
+    box-shadow: 6px 6px 7px #f0f0f0, -6px -6px 7px #ffffff;
+    padding: 5% 10px;
+    margin: 5%;
+}
+
+.feedIconFlex {
+    margin-top: 15px;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.feedIconContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.feedIconContainer > span {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.7);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.feedInput {
+    width: inherit;
+    font-size: 2rem;
+    padding: 5px 0;
+}
+
+.feedInput:focus {
+    outline: none;
+}
+
+.postBtn {
+    flex: 3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shareImgContainer {
+    width: 400px;
+    margin: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.shareImg {
+    width: inherit;
+    opacity: 0.7;
+    border-radius: 2%;
+}
+
+@media screen and (max-width: 390px) {
+    .feedContainer {
+        margin: 20px 0;
+        padding: 10px 5px;
+    }
+    
+    .topContainer{
+        padding: 10px 0;
+    }
+
+    .feedInput {
+        font-size: 12px;
+    }
+
+    .feedIconFlex {
+        margin: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0;
+    }
+
+    .feedIconFlex > .feedIconContainer:not(.RWDremain) {
+        display: none;
+    }
+
+    .postBtn,
+    .feedIconContainer {
+        font-size: 16px;
+        flex: 1;
+    }
+
+    .postBtn {
+        padding: 5px 15px;
+    }
+}

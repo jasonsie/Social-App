@@ -1,0 +1,24 @@
+.editInput {
+    width:fit-content;
+    margin: 15px 0;
+    padding: 0 20px;
+    font-size: 25px;
+    border: none;
+    opacity: 0.6;
+}
+.editInput:focus{
+    outline: none;
+}
+
+
+.editBtn{
+    margin: 0 15px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.editBtn:hover{
+    transform: scale(110%);
+    transition: ease-in-out;
+}
+

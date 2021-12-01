@@ -1,0 +1,122 @@
+.headerContainer {
+    width: 100vw;
+    display: flex;
+    background-color: #4267b2;
+    position: fixed;
+    z-index: 999;
+}
+
+.logoContainer {
+    flex: 2.5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fakebookIcon {
+    font-family: "Zen Kaku Gothic Antique", sans-serif !important;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+.notificationIcon {
+    cursor: pointer;
+    position: static;
+}
+
+.notification{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 20%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationNum{
+    font-size: 15px;
+    color: white;
+}
+
+
+.searchContainer {
+    flex: 5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchInput {
+    width: 60%;
+    height: 65%;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchIcon {
+    margin: 0 10px;
+}
+
+.rightContainer{
+    display: flex;
+    align-items: center;
+}
+
+.shareProtrait {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logInContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logInIcon {
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .logoContainer{
+        flex: 1;
+    }
+
+    .fakebookIcon{
+        padding: 10px 0;
+        margin: 10px 0;
+        font-size: 30px
+    }
+
+    .rightContainer{
+        flex: 1;
+    }
+
+    .shareProtrait{
+        display: none;
+    }
+    
+    .logInIcon{
+        font-size: 12px;
+    }
+
+}

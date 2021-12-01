@@ -1,0 +1,71 @@
+.SideBar{
+    flex: 3;
+    width: 100%;
+    height: calc(100vh - 66px);
+    border-right: 1px solid rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: sticky;
+    overflow-y: scroll
+}
+
+.ProtraitContainer{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProtraitImg{
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 10%;
+}
+
+.itemContainer{
+    align-self:flex-start;
+    margin-left: 20%;
+}
+
+.itemContainerApp{
+    width: 80%;
+    background-color: rgb(137, 143, 156, 0.5);
+    padding: 5px 15px;
+    border-radius: 2%;
+}
+
+.itemContainer > li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.itemContainer > li > span{
+    margin: 10px 0;
+}
+
+.itemName{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.moreContainer{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.moreBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 2%;
+    font-size: 20px;
+}
+
