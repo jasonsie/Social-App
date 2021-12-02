@@ -1,5 +1,5 @@
 # social-app
- [image](<img src="./readme/1.png" alt="drawing" width="200"/>)
+ [image](<img src="https://github.com/jasonsie/social-app/blob/main/readme/1.png" alt="drawing" width="200"/>)
 
 
 ## Catalog
