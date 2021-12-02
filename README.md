@@ -28,8 +28,11 @@
 
 ## Structure & Component
 * Page and its component
+
 | - | - |
 | -------- | -------- | -------- | -------- | -------- |
+
+
 | con/page |    login | register |     home |  profile |
 |  header  | ----- | -------- |   ✔️  |   ✔️     |
 |  sideBar |------ | -------- |   ✔️  |   ✔️     |
