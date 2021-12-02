@@ -1,5 +1,5 @@
 # social-app
- [image]("https://github.com/jasonsie/social-app/blob/main/readme/1.png")
+ [image](https://github.com/jasonsie/social-app/blob/main/readme/1.png)
 
 
 ## Catalog
