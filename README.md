@@ -29,7 +29,7 @@
 ## Structure & Component
 * Page and its component
 
-| - | - |
+| - | - | - | - | - |
 | -------- | -------- | -------- | -------- | -------- |
 
 
