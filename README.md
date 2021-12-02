@@ -1,13 +1,39 @@
 # social-app
- 
-
+ [pic]()
 
 
 ## Catalog
+- [Development & Skills](#Development-&-Skills)
+  - [- 前端 / front](#--前端-/-front)
+  - [- 後端/back](#--後端/back)
+  - [資料庫 / database](#資料庫-/-database)
 
-## Skills Structure
+- [Structure & Component](#Structure-&-Component)
+- [Features](#features)
+  - [#1 Sign-up, Register](#sign-up,-Register)
+  - [#2 Post: create, edit, delete](#Post:-create,-edit,-delete)
+  - [#3 follow, unfollow](#follow,-unfollow)
 
-## Component Planning
+
+
+## Development & Skills
+### - 前端 / front
+* 「Fakebook」的前端開發主要使用**React** ，搭配使用`React-Router`完成四個主要頁面：登入、註冊、首頁、個人頁面。
+* 其中，主要使用hooks操作資料、state狀態管理資料 / 管理頁頁。亦使用axios套件呼叫後端資料庫。
+### - 後端/back
+* 後端透過`node.js`搭配`express`引擎。
+* 使用node的環境架設server、restful api。
+### - 資料庫 / database
+* 本專案使用mongoDB
+
+## Structure & Component
+* Page and its component
+| con/page | login | register | home | profile |
+|  header  | ----- | -------- |   ✔️  |   ✔️     |
+|  sideBar |------ | -------- |   ✔️  |   ✔️     |
+|  Feed    | ------| ---------|   ✔️  |   ✔️     |
+|  rightBar|------- |---------|   ✔️  |   ✔️     |
+
 
 ## Features
 ### 1️⃣  Sign-up, Register
@@ -26,7 +52,3 @@
 
 ### 3️⃣  follow, unfollow
 使用者可follow新的朋友。
-
-
-### 4️⃣ 
-### 5️⃣ 
