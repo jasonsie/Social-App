@@ -1,5 +1,5 @@
 # social-app
- [pic](./readme/1.png)
+ [image](<img src="./readme/1.png" alt="drawing" width="200"/>)
 
 
 ## Catalog
