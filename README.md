@@ -44,7 +44,6 @@
 
 [測試帳號密碼](#test-account)
 | - | - |
-| -------- | -------- |
 | Account | andrew@gmail.com |
 | Password | andrewsaccount |
 
