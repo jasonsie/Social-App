@@ -1,5 +1,5 @@
 # social-app
- [pic]()
+ [pic](./readme/1.png)
 
 
 ## Catalog
